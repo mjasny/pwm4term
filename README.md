@@ -6,6 +6,13 @@ You need the `vte` package to run this terminal emulator.
 
 ## Installation
 
+### Dependencies
+* Debian:
+`sudo apt install libvte-2.91-dev`
+
+* Archlinux:
+`sudo pacman -S vte3`
+
 `mkdir build && cd $_`
 
 `cmake ..`
